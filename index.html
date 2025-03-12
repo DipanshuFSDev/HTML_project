@@ -20,7 +20,7 @@
             border-color: black;
             border-width: 2px;
             width: 200px;
-            background-color:darkgray;
+            background-color: darkgray;
         }
 
         .row-one-th-two {
@@ -28,8 +28,8 @@
             border-color: black;
             border-width: 2px;
             width: 200px;
-            background-color:darkgray;
-        
+            background-color: darkgray;
+
         }
 
         .row-one-th-three {
@@ -37,7 +37,7 @@
             border-color: black;
             border-width: 2px;
             width: 200px;
-            background-color:darkgray;
+            background-color: darkgray;
         }
 
         .row-one-th-four {
@@ -45,12 +45,12 @@
             border-color: black;
             border-width: 2px;
             width: 200px;
-            background-color:darkgray;
+            background-color: darkgray;
         }
 
         /* row two css */
         .row-two {
-            height: 500px;
+            height: 400px;
         }
 
         /* row two td one css */
@@ -59,13 +59,13 @@
             border-color: black;
             border-width: 2px;
             text-align: center;
-            background-color:lightgoldenrodyellow;
-            
+            background-color: lightgoldenrodyellow;
+
         }
 
         /* row three css */
         .row-three {
-            height: 500px;
+            height: 400px;
         }
 
         .row-three-td-one {
@@ -73,12 +73,13 @@
             border-color: black;
             border-width: 2px;
             text-align: center;
-            background-color:lightgoldenrodyellow;
+            background-color: lightgoldenrodyellow;
         }
 
         /* row four */
         .row-four {
-            height: 500px;
+            width: 100%;
+            height: 450px;
         }
 
         /* row four td one css */
@@ -86,7 +87,23 @@
             border-style: solid;
             border-color: black;
             border-width: 2px;
-            background-color:lightgoldenrodyellow;
+            background-color: lightgoldenrodyellow;
+        }
+
+        /* table two css */
+        .table-two {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* table two td css */
+        .table-two-td {
+            border-style: solid;
+            border-color: black;
+            border-width: 3px;
+            
+            
+
         }
 
         /* row five css*/
@@ -100,7 +117,7 @@
             border-color: black;
             border-width: 2px;
             text-align: center;
-            background-color:lightgoldenrodyellow;
+            background-color: lightgoldenrodyellow;
         }
     </style>
 
@@ -126,9 +143,9 @@
         <!-- row two -->
         <tr class="row-two">
             <td colspan="4" class="row-two-td-one" id="home">
-                <img src="./assest/images/skype.jpg" width="90px" height="90px" />
-                <h1>My name is Dipanshu Chandekar</h1>
-                <h3>full-stack Developer</h3>
+                <img src="./assest/images/skype.jpg" width="120px" height="110px"></br>
+                Hi, I'm <b>Dipanshu Chandekar</b></br>
+                A full-stack Developer
             </td>
 
         </tr>
@@ -136,32 +153,40 @@
         <tr class="row-three">
             <td colspan="4" class="row-three-td-one" id="about">
                 <h1><u>About</u></h1>
-                <p><h3>I am a full-stack developer who thrives on innovation and learning. My goal is to build engaging,
+                <p>
+                <h3>I am a full-stack developer who thrives on innovation and learning. My goal is to build engaging,
                     responsive web
                     applications that provide exceptional user experiences. I specialize in translating creative ideas
                     into
-                    functional, well-structured code, whether working on the front-end or back-end.</h3></p>
+                    functional, well-structured code, whether working on the front-end or back-end.</h3>
+                </p>
             </td>
 
         </tr>
         <!-- row four -->
         <tr class="row-four">
             <td colspan="4" class="row-four-td-one" id="projects">
-                <h1><u>My Projects</u></h1>
-                <ol>
-                    <li><a href="my-resume.html">MY RESUME</li>
-                    <li><a href="top-influncers.html">MY INFLUNCERS</li>
-                    <li><a href="regestration-form.html">SIGNUP</li>
-                    <li><a href="complete-form.html">COMPLETE HTML FORM</li>
-                    <li><a href="cpu-components.html">CPU COMPONENTS</li>
-                    <li><a href="report-card.html">REPORT CARD</li>
-                    <li><a href="student-data.html">STUDENT DATA</li>
-                    <li><a href="background-color-tbl.html">BACKGROUND TABLE LAYOUT</li>
-                    <li><a href="youtubepage.html">YOUTUBE PAGE</li>
-                    <li><a href="tbl-index.html">PAGE LAYOUT</li>
-                    <li><a href="calculator.html">CALCULATOR</li>
-
-                </ol>
+                <!--table two -->
+                <table class="table-two">
+                    <tr>
+                        <td class="table-two-td"><img src="https://www.shutterstock.com/image-vector/profile-paper-document-personal-data-260nw-1586393896.jpg" width="100%" height="110px"><a href="my-resume.html">MY RESUME</a></td>
+                        <td class="table-two-td"><img src="https://www.visualcapitalist.com/wp-content/uploads/2021/05/Top-50-Social-Media-Influencers-2.jpg"  width="100%" height="110px"><a href="top-influncers.html">MY TOP INFLUNCERS</a></td>
+                        <td class="table-two-td"><img src="https://www.wufoo.com/wp-content/uploads/2017/12/School_ID_Registration_Form.png" width="100%" height="110px"><a href="regestration-form.html">SIGNUP</a></td>
+                        <td class="table-two-td"><img src="https://codeconvey.com/wp-content/uploads/2020/02/student-registration-form-in-html-with-validation.png.webp" width="100%" height="110px"><a href="complete-form.html">COMPLETE HTML FORM</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-two-td"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZSScvxkRJSueEPZg01lVfDAUBq6rQ7ZHsGg&s" width="100%" height="110px"><a href="cpu-components.html">CPU COMPONENTS</a></td>
+                        <td class="table-two-td"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBgcsXcDHQq9gwsSBYr_izTzfzdHEU-4Wqg&s" width="100%" height="110px"><a href="report-card.html">REPORT CARD</a></td>
+                        <td class="table-two-td"><img src="https://5.imimg.com/data5/SELLER/Default/2021/3/ZI/MI/AJ/87406844/pamphlet.jpg" width="100%" height="110px"><a href="student-data.html">STUDENT DATA</a></td>
+                        <td class="table-two-td"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCV6YVl2blYcSVsJkq9a-ni-IO_zvssitHxQ&s" width="100%" height="130px"><a href="background-color-tbl.html">BACKGROUND TABLE LAYOUT</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-two-td"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6R4EillLidpfOh_vbe58U57A05lajO-44iw&s" width="100%" height="110px"><a href="youtubepage.html">YOUTUBE PAGE</a></td>
+                        <td class="table-two-td"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL3H8pvETj6yv6JSgoseE6K5vahdh2RIbVQQ&s" width="100%" height="110px"><a href="tbl-index.html">PAGE LAYOUT</a></td>
+                        <td class="table-two-td"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZm4gwFMbKV4zcNGiio_YmjdI_FhzINM5iDw&s" width="100%" height="110px"><a href="calculator.html">CALCULATOR</a></td>
+                        <td class="table-two-td"></td>
+                    </tr>
+                </table>
             </td>
 
 
@@ -169,10 +194,10 @@
         <tr class="row-five">
             <td colspan="4" class="row-five-td-one" id="contacts">
                 <h1><u>Contacts</u></h1>
-              <h3>Phone no: <a href="tel:+91 8669223119">+91 8669223119</a></h3>
-              <h3>Email: <a href="mailto:dipanshuchandekar496@gmail.com">dipanshuchandekar496@gmail.com</a></h3>
-              <h3>Github: <a href="https://github.com/DipanshuFSDev/HTML_project.git">
-                https://github.com/DipanshuFSDev/HTML_project.git</a></h3>
+                <h3>Phone no: <a href="tel:+91 8669223119">+91 8669223119</a></h3>
+                <h3>Email: <a href="mailto:dipanshuchandekar496@gmail.com">dipanshuchandekar496@gmail.com</a></h3>
+                <h3>Github: <a href="https://github.com/DipanshuFSDev/HTML_project.git">
+                        https://github.com/DipanshuFSDev/HTML_project.git</a></h3>
                 <h3>Location: Saoner</h3>
                 <h3>Skype: Available</h3>
 
