@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Breaking News</title>
+   <style>
+      body {
+         width: 100vw;
+         height: 100vh;
+         background-color: rgb(216, 216, 72);
+      }
+
+      .main-container {
+         width: 100%;
+         height: 100%;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         gap: 10px;
+
+      }
+
+      .box-one {
+         width: 100%;
+         height: 60px;
+         background-color: rgb(30, 163, 30);
+         padding-top: 25px;
+         grid-column: 1/ span 3;
+         font-size: 30px;
+         color: white;
+         text-align: center;
+      }
+
+      .box-two {
+         width: 100%;
+         height: 750px;
+         background-color: white;
+         grid-column: 1/ span 2;
+         border-radius: 10px;
+         padding-top: 30px;
+      }
+      h1{
+         font-size: 50px;
+      }
+      p{
+         font-size:40px;
+      }
+
+      .box-three {
+         width: 100%;
+         height: 750px;
+         background-color: white;
+         border-radius: 10px;
+         padding-left: 20px;
+         padding-top: 30px;
+         font-size: 30px;
+
+      }
+
+      .box-four {
+         width: 100%;
+         height: 40px;
+         background-color: rgb(87, 56, 56);
+         grid-column: 1 /span 3;
+         padding-top: 10px;
+         text-align: center;
+         font-size: 30px;
+         color: white;
+
+      }
+   </style>
+</head>
+
+<body>
+   <div class="main-container">
+      <div class="box-one">BREAKING NEWS</div>
+      <div class="box-two">
+         <h1>Major Event Shakes the World</h1>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nobis ipsam, voluptate quod saepe
+            assumenda quam odio, blanditiis obcaecati fuga eum ad facere corporis beatae ullam exercitationem autem id
+            voluptatibus?</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit est vel maiores architecto quas corporis sed
+            magni, laborum dolorem molestiae consectetur ducimus eaque debitis nihil commodi repellendus vitae sunt
+            nesciunt.</p>
+      </div>
+      <div class="box-three">
+         <h1>Related News</h1>
+         <ul>
+            <li>Event 1</li>
+            <li>Event 2</li>
+            <li>Event 3</li>
+         </ul>
+      </div>
+      <div class="box-four">ⓒ 2023 News Company. All rights reserved.</div>
+
+   </div>
+</body>
+
+</html>
