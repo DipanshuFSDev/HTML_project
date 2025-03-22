@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid assignmet two</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .main-container {
+            width: 100%;
+            height: auto;
+            background-color: cadetblue;
+            display: grid;
+            /* grid-template-columns: repeat(5, 1fr); */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+
+        .header {
+            width: 100%;
+            height: 80px;
+            background-color: antiquewhite;
+            grid-column: 1 / span 5;
+            border-radius: 20px;
+            margin-top: 25px;
+            text-align: center;
+            font-size: 130%;
+
+
+        }
+
+        .box-one {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+
+        }
+
+        .box-two {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+
+            .two {
+                padding-top: 50px;
+            }
+        }
+
+        .box-three {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .three {
+            padding-top: 50px;
+        }
+
+        .box-four {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .four {
+            padding-top: 50px;
+        }
+
+        .box-five {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .five {
+            padding-top: 50px;
+        }
+
+        .box-six {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .six {
+            padding-top: 50px;
+        }
+
+        .box-seven {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .seven {
+            padding-top: 50px;
+        }
+
+        .box-eight {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .eight {
+            padding-top: 50px;
+        }
+
+        .box-nine {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .nine {
+            padding-top: 50px;
+        }
+
+        .box-ten {
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .ten {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1><u><u>PRODUCTS</u></u></h1>
+        </div>
+        <div class="box-one">
+            <img src="https://m.media-amazon.com/images/I/617BhOIW4nL._SL1500_.jpg" width="250px">
+            <h1>₹62,100</h1>
+            <p>Karbon Pcstudio- Gaming Pc,Desktop Computer Tower, Ryzen 5 5500 CPU,RTX 4060 8GB GPU,16GBRAM,Tower Cooling,80+Bronze 550W, 512GB SSD</p>
+        </div>
+        <div class="box-two">
+            <img class="two" src="https://m.media-amazon.com/images/I/5135cJqjQIL._SL1000_.jpg"
+                width="250px"></br></br></br>
+            <h1>₹2,395</h1>
+            <p>Logitech G402 Hyperion Fury USB Wired Gaming Mouse, 4,000 DPI, Lightweight, 8 Programmable Buttons,
+                Compatible for PC/Mac - Black</p>
+        </div>
+        <div class="box-three">
+            <img class="three" src="https://m.media-amazon.com/images/I/61L1V3MDRXL._SL1500_.jpg"
+                width="250px"></br></br></br></br></br>
+            <h1>₹2,999</h1>
+            <p> PowerA Battle Dragon™ Wireless Controller for PC and Cloud Gaming: Magnetic Hall Effect, Asymmetric
+                Rumble Motors, 20h Playtime (Not for iOS)</p>
+        </div>
+        <div class="box-four">
+            <img class="four" src="https://m.media-amazon.com/images/I/61HKzrmiCzL._SL1200_.jpg"
+                width="250px"></br></br></br>
+            <h1>₹2,799</h1>
+            <p>
+                Kreo Hive RGB Anti-ghosting Gaming Keyboard, 75% Tenkeyless Wired Mechanical Keyboard with RGB
+                Backlight,PC Gaming Keyboard Detachable</p>
+        </div>
+        <div class="box-five">
+            <img class="five" src="https://m.media-amazon.com/images/I/71IiZfBppNL._SL1500_.jpg"
+                width="250px"></br></br></br>
+            <h1>₹59,900</h1>
+            <p>Apple AirPods Max Wireless Over-Ear Headphones, Pro-Level Active Noise Cancellation,Bluetooth Headphones
+                for iPhone - Orange</p>
+        </div>
+        <div class="box-six">
+            <img class="six" src="https://m.media-amazon.com/images/I/71BEFuoEo-L._SL1500_.jpg" width="250px">
+            <h1> ₹40,499</h1>
+            <p>IZI Mini X Nano Fly More Combo 4K Drone with camera UHD 20MP CMOS, 4KM Live Video, 93-min Flight Time,
+                GPS, 3-Axis Gimbal, 10+ Flight Modes, 3 x Smart Battery, Fast Tri-Charger, 249g</p>
+        </div>
+        <div class="box-seven">
+            <img class="seven" src="https://m.media-amazon.com/images/I/61UDnlSdKWL._SL1000_.jpg" width="250px">
+            <h1> ₹92,990</h1>
+            <p>Nikon D7500 Camera Body with 18-140 mm VR Digital DSLR Kit - Black</p>
+        </div>
+        <div class="box-eight">
+            <img class="eight" src="https://m.media-amazon.com/images/I/71-d7XDbhIL._SL1500_.jpg" width="250px">
+            <h1>₹1,29,999</h1>
+            <p>Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Whitesilver, 12GB RAM, 256GB Storage), 200MP Camera,
+                S Pen Included, Long Battery Life</p>
+        </div>
+        <div class="box-nine">
+            <img class="nine" src="https://m.media-amazon.com/images/I/61Ony8rgwEL._SL1500_.jpg" width="250px">
+            <h1>₹1,22,900 </h1>
+            <p>iPhone 16 Pro 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in
+                Battery Life. Works with AirPods; Black Titanium</p>
+        </div>
+        <div class="box-ten">
+            <img class="ten" src="https://m.media-amazon.com/images/I/71SwuatflqL._SL1500_.jpg" width="250px">
+        <h1>₹26,999</h1>
+        <p>ZEBRONICS Juke BAR 9900, 725 Watts, Karaoke UHF Mic, Dolby Atmos, DTS X, 7.2.2 (5.2.4) Surround Soundbar with
+            Dual Wireless Subwoofer & Satellites, HDMI eARC, Optical in, RGB LED</p>
+        </div>
+    </div>
+</body>
+
+</html>
